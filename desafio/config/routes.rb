@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
  
 
+  get 'pages/about2'
+
+  get 'pages/contact2'
+
+  get 'pages/page404'
+
+  get 'pages/components'
+
   get 'blogs/masonry'
 
   get 'blogs/sidebar'
@@ -21,7 +29,7 @@ Rails.application.routes.draw do
 
   get 'landings/contact'
 
-  root 'landings#home'
+  root'landings#home'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
