@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
  
 
+  get 'blogs/masonry'
+
+  get 'blogs/sidebar'
+
+  get 'blogs/postfullwidth'
+
+  get 'blogs/postsidebar'
+
   get 'landings/home'
 
   get 'landings/about'
